@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+   @using(Html.BeginForm("Name","Home", FormMethod.Post))
+   {
+       <input type="text" placeholder="Enter Serhii" name="name"/>
+       <button type="submit" name="button">Submit</button>
+   }
+</div>
